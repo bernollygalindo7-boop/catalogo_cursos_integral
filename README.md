@@ -18,13 +18,15 @@ Eliminar cursos que ya no sean necesarios.
 El objetivo principal es aprender a aplicar Python con Django en un proyecto CRUD, trabajando en equipo bajo metodologías ágiles como Scrum, usando control de versiones con GitHub y configurando integración continua.
 
 
-*👥 Integrantes y Roles*
-Rol	Integrante	Función
-Scrum Master	Williams Galindo	Dirige el proyecto, asigna tareas y asegura que todos cumplan su rol.
-Product Owner	Thory Vera	Coordina funcionalidades, prioriza historias de usuario y apoya en Trello.
-Developer 1	Andres Salinas	Creación y mejora del código, pruebas, soporte en integración.
-Developer 2	Ayrton Yactayo	Apoyo en desarrollo del código y organización de tareas.
-Developer 3	Josue Ochoa	Implementación y prueba del código, colaboración en funcionalidades.
+## **👥 Integrantes y Roles**
+
+| Rol           | Integrante      | Función                                                                   |
+|---------------|-----------------|-------------------------------------------------------------------------  |
+| Scrum Master  | Williams Galindo| Dirige el proyecto, asigna tareas y asegura que todos cumplan su rol.     |
+| Product Owner | Thory Vera      | Coordina funcionalidades, prioriza historias de usuario y apoya en Trello.|
+| Developer 1   | Andres Salinas  | Creación y mejora del código, pruebas, soporte en integración.            |
+| Developer 2   | Ayrton Yactayo  | Apoyo en desarrollo del código y organización de tareas.                  |
+| Developer 3   | Josue Ochoa     | Implementación y prueba del código, colaboración en funcionalidades.      |
 
 
 * 🚀 Requisitos*
