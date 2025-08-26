@@ -1,9 +1,9 @@
-##📚 Catálogo de Cursos Online (Django)
+*📚 Catálogo de Cursos Online (Django)*
 
 Mini proyecto CRUD con Django: curso, duración, plataforma y dificultad.
 Metodologías aplicadas: Scrum + XP, repositorio en GitHub y CI con GitHub Actions.
 
-##🚀 Descripción
+*🚀 Descripción*
 
 Este proyecto permite gestionar un catálogo de cursos online de manera interactiva. Los usuarios pueden:
 
@@ -18,7 +18,7 @@ Eliminar cursos que ya no sean necesarios.
 El objetivo principal es aprender a aplicar Python con Django en un proyecto CRUD, trabajando en equipo bajo metodologías ágiles como Scrum, usando control de versiones con GitHub y configurando integración continua.
 
 
-##👥 Integrantes y Roles
+*👥 Integrantes y Roles*
 Rol	Integrante	Función
 Scrum Master	Williams Galindo	Dirige el proyecto, asigna tareas y asegura que todos cumplan su rol.
 Product Owner	Thory Vera	Coordina funcionalidades, prioriza historias de usuario y apoya en Trello.
@@ -27,12 +27,12 @@ Developer 2	Ayrton Yactayo	Apoyo en desarrollo del código y organización de ta
 Developer 3	Josue Ochoa	Implementación y prueba del código, colaboración en funcionalidades.
 
 
-## 🚀 Requisitos
+* 🚀 Requisitos*
 - Python 3.11 (o 3.10)
 - pip
 
 
-##🔧 Instalación y ejecución
+*🔧 Instalación y ejecución*
 1️⃣ Crear carpeta del proyecto
 
 En el Escritorio (o ubicación deseada):
@@ -88,12 +88,11 @@ Starting development server at http://127.0.0.1:8000/
 👉 Por defecto será: http://127.0.0.1:8000
 
 
-## 🧪 Tests
+ 🧪 *Tests*
 ```bash
 python manage.py test
 ```
 
 
-## 🤖 CI con GitHub Actions
+🤖 *CI con GitHub Actions*
 Workflow en `.github/workflows/django.yml`: instala deps, migra y corre tests en cada push/PR a `main`.
-
