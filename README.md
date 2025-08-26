@@ -35,66 +35,54 @@ Metodologías aplicadas: Scrum + XP, repositorio en GitHub y CI con GitHub Actio
 - pip
 
 
-## 🔧 Instalación y ejecución
+## **🔧 Instalación y ejecución**
 
-### 1️⃣ Crear carpeta del proyecto
-En el Escritorio (o ubicación deseada):  
-```bash
-cd Desktop
-mkdir catalogo_cursos_integral
-cd catalogo_cursos_integral
+
+
 2️⃣ Crear entorno virtual
+
 Instalar virtualenv (si no lo tienes):
 
-bash
-Copiar
-Editar
 pip install virtualenv
+
+
 Crear el entorno virtual dentro de la carpeta:
 
-bash
-Copiar
-Editar
 virtualenv venv
+
+
 Activar el entorno virtual:
 
-bash
-Copiar
-Editar
 .\venv\Scripts\activate
+
 3️⃣ Abrir el proyecto en Visual Studio Code
+
 Arrastra la carpeta catalogo_cursos_integral a Visual Studio Code
 (o abre VS Code → File > Open Folder → selecciona la carpeta).
 
 4️⃣ Instalar Django
+
 En la terminal de Visual Studio Code (con el entorno activado):
 
-bash
-Copiar
-Editar
 pip install django
+
+
 Si tienes el archivo requirements.txt:
 
-bash
-Copiar
-Editar
 pip install -r requirements.txt
+
 5️⃣ Migrar la base de datos
-bash
-Copiar
-Editar
 python manage.py migrate
+
 6️⃣ Ejecutar el servidor
-bash
-Copiar
-Editar
 python manage.py runserver
+
+
 En la terminal aparecerá un mensaje similar a:
 
-nginx
-Copiar
-Editar
 Starting development server at http://127.0.0.1:8000/
+
+
 👉 Por defecto será: http://127.0.0.1:8000
 
 
