@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Curso</title>
+</head>
+<body>
+    <h1>✏️ Editar Curso</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <label>Nombre:</label><br>
+        <input type="text" name="nombre" value="{{ curso.nombre }}" required><br><br>
+        <label>Duración:</label><br>
+        <input type="text" name="duracion" value="{{ curso.duracion }}" required><br><br>
+        <label>Plataforma:</label><br>
+        <input type="text" name="plataforma" value="{{ curso.plataforma }}" required><br><br>
+        <label>Dificultad:</label><br>
+        <select name="dificultad" required>
+            <option value="Básico" {% if curso.dificultad == "Básico" %}selected{% endif %}>Básico</option>
+            <option value="Intermedio" {% if curso.dificultad == "Intermedio" %}selected{% endif %}>Intermedio</option>
+            <option value="Avanzado" {% if curso.dificultad == "Avanzado" %}selected{% endif %}>Avanzado</option>
+        </select><br><br>
+        <button type="submit">Actualizar</button>
+    </form>
+    <a href="{% url 'lista_cursos' %}">⬅️ Volver</a>
+</body>
+</html>

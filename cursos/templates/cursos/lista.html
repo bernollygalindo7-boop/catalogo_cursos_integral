@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Cursos</title>
+</head>
+<body>
+    <h1>📚 Catálogo de Cursos</h1>
+    <a href="{% url 'crear_curso' %}">➕ Agregar curso</a>
+    <br><br>
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Curso</th>
+                <th>Duración</th>
+                <th>Plataforma</th>
+                <th>Dificultad</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for curso in cursos %}
+            <tr>
+                <td>{{ curso.nombre }}</td>
+                <td>{{ curso.duracion }}</td>
+                <td>{{ curso.plataforma }}</td>
+                <td>{{ curso.dificultad }}</td>
+                <td>
+                    <a href="{% url 'editar_curso' curso.id %}">✏️ Editar</a> |
+                    <a href="{% url 'eliminar_curso' curso.id %}">🗑️ Eliminar</a>
+                </td>
+            </tr>
+            {% empty %}
+            <tr><td colspan="5">No hay cursos registrados.</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
