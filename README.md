@@ -1,21 +1,22 @@
-*📚 Catálogo de Cursos Online (Django)*
+## **📚 Catálogo de Cursos Online (Django)**
 
 Mini proyecto CRUD con Django: curso, duración, plataforma y dificultad.
 Metodologías aplicadas: Scrum + XP, repositorio en GitHub y CI con GitHub Actions.
 
-*🚀 Descripción*
+## **🚀 Descripción**
 
-Este proyecto permite gestionar un catálogo de cursos online de manera interactiva. Los usuarios pueden:
 
-Crear nuevos cursos con sus datos: nombre, duración, plataforma y dificultad.
+-Este proyecto permite gestionar un catálogo de cursos online de manera interactiva. Los usuarios pueden:
 
-Leer o consultar todos los cursos existentes.
+-Crear nuevos cursos con sus datos: nombre, duración, plataforma y dificultad.
 
-Actualizar información de cursos existentes.
+-Leer o consultar todos los cursos existentes.
 
-Eliminar cursos que ya no sean necesarios.
+-Actualizar información de cursos existentes.
 
-El objetivo principal es aprender a aplicar Python con Django en un proyecto CRUD, trabajando en equipo bajo metodologías ágiles como Scrum, usando control de versiones con GitHub y configurando integración continua.
+-Eliminar cursos que ya no sean necesarios.
+
+-El objetivo principal es aprender a aplicar Python con Django en un proyecto CRUD, trabajando en equipo bajo metodologías ágiles como Scrum, usando control de versiones con GitHub y configurando integración continua.
 
 
 ## **👥 Integrantes y Roles**
@@ -29,13 +30,13 @@ El objetivo principal es aprender a aplicar Python con Django en un proyecto CRU
 | Developer 3   | Josue Ochoa     | Implementación y prueba del código, colaboración en funcionalidades.      |
 
 
-* 🚀 Requisitos*
+## **🚀 Requisitos**
 - Python 3.11 (o 3.10)
 - pip
 
 
-*🔧 Instalación y ejecución*
-1️⃣ Crear carpeta del proyecto
+## **🔧 Instalación y ejecución**
+###1️⃣ Crear carpeta del proyecto
 
 En el Escritorio (o ubicación deseada):
 
@@ -43,7 +44,7 @@ cd Desktop
 mkdir catalogo_cursos_integral
 cd catalogo_cursos_integral
 
-2️⃣ Crear entorno virtual
+###2️⃣ Crear entorno virtual
 
 Instalar virtualenv (si no lo tienes):
 
@@ -59,12 +60,12 @@ Activar el entorno virtual:
 
 .\venv\Scripts\activate
 
-3️⃣ Abrir el proyecto en Visual Studio Code
+###3️⃣ Abrir el proyecto en Visual Studio Code
 
 Arrastra la carpeta catalogo_cursos_integral a Visual Studio Code
 (o abre VS Code → File > Open Folder → selecciona la carpeta).
 
-4️⃣ Instalar Django
+###4️⃣ Instalar Django
 
 En la terminal de Visual Studio Code (con el entorno activado):
 
@@ -75,10 +76,10 @@ Si tienes el archivo requirements.txt:
 
 pip install -r requirements.txt
 
-5️⃣ Migrar la base de datos
+###5️⃣ Migrar la base de datos
 python manage.py migrate
 
-6️⃣ Ejecutar el servidor
+###6️⃣ Ejecutar el servidor
 python manage.py runserver
 
 
@@ -90,11 +91,11 @@ Starting development server at http://127.0.0.1:8000/
 👉 Por defecto será: http://127.0.0.1:8000
 
 
- 🧪 *Tests*
+ ## **🧪 Tests**
 ```bash
 python manage.py test
 ```
 
 
-🤖 *CI con GitHub Actions*
+## **🤖 CI con GitHub Actions**
 Workflow en `.github/workflows/django.yml`: instala deps, migra y corre tests en cada push/PR a `main`.
