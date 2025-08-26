@@ -41,7 +41,7 @@ Metodologías aplicadas: Scrum + XP, repositorio en GitHub y CI con GitHub Actio
 
 2️⃣ Crear entorno virtual
 
-Instalar virtualenv (si no lo tienes):
+Instalar virtualenv :
 
 pip install virtualenv
 
