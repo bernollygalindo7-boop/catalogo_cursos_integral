@@ -34,6 +34,13 @@ Metodologías aplicadas: Scrum + XP, repositorio en GitHub y CI con GitHub Actio
 - Python 3.11 (o 3.10)
 - pip
 
+  
+## **🖥️ Lenguajes utilizados**
+
+| Lenguaje | Porcentaje | Logo |
+|----------|------------|------|
+| Python   | 66.9%      | 🐍 |
+| HTML     | 33.1%      | 🌐 |
 
 ## **🔧 Instalación y ejecución**
 
