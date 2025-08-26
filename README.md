@@ -41,17 +41,17 @@ Metodologías aplicadas: Scrum + XP, repositorio en GitHub y CI con GitHub Actio
 
 2️⃣ Crear entorno virtual
 
-Instalar virtualenv :
+-Instalar virtualenv :
 
 pip install virtualenv
 
 
-Crear el entorno virtual dentro de la carpeta:
+-Crear el entorno virtual dentro de la carpeta:
 
 virtualenv venv
 
 
-Activar el entorno virtual:
+-Activar el entorno virtual:
 
 .\venv\Scripts\activate
 
@@ -62,7 +62,7 @@ Arrastra la carpeta catalogo_cursos_integral a Visual Studio Code
 
 4️⃣ Instalar Django
 
-En la terminal de Visual Studio Code (con el entorno activado):
+-En la terminal de Visual Studio Code (con el entorno activado):
 
 pip install django
 
