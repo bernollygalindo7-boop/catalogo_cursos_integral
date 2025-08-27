@@ -1,7 +1,12 @@
 ## **📚 Catálogo de Cursos Online (Django)**
 
+
 Mini proyecto CRUD con Django: curso, duración, plataforma y dificultad.
 Metodologías aplicadas: Scrum + XP, repositorio en GitHub y CI con GitHub Actions.
+
+CRUD
+<img width="1245" height="616" alt="image" src="https://github.com/user-attachments/assets/126db778-fa7a-4a50-b501-a097b35cf1c9" />
+
 
 ## **🚀 Descripción**
 
