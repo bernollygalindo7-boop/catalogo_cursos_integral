@@ -37,10 +37,10 @@ Metodologías aplicadas: Scrum + XP, repositorio en GitHub y CI con GitHub Actio
   
 ## **🖥️ Lenguajes utilizados**
 
-| Lenguaje | Porcentaje | Logo |
-|----------|------------|------|
-| Python   | 66.9%      | 🐍 |
-| HTML     | 33.1%      | 🌐 |
+| Lenguaje | Porcentaje |
+|----------|------------|
+| Python   | 66.9%      |
+| HTML     | 33.1%      |
 
 ## **🔧 Instalación y ejecución**
 
